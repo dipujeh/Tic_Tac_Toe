@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Radio+Canada:ital,wght@0,300..700;1,300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Radio Canada", sans-serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000618;
+
+}
+section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+.btn-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.8rem;
+}
+.btn {
+  width: 6rem;
+  height: 6rem;
+  background: rgba(14, 28, 31, 0.4);
+  border: 2px solid rgba(164, 160, 160, 0.2);
+  border-radius: 0.5rem;
+  /* background-color: #e9d8a6; */
+  box-shadow: 0 0 100px #0F231B;
+
+  font-size: 3rem;
+  cursor: pointer;
+  font-weight: 400;
+}
+.heading {
+  /* color: rgb(176, 176, 176); */
+  color: #edf6f9;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+#reset {
+  padding: 1rem 1.5rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  background: rgba(14, 28, 31, 0.4);
+
+  /* color: #e9d8a6; */
+  color: #3f37c9;
+}
+.msg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.hide {
+  display: none;
+}
+.new-game {
+  padding: 1rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  background: rgba(14, 28, 31, 0.4);
+  color: #3f37c9;
+
+  /* font-family: "Montserrat", sans-serif; */
+}
+.text,.winning-msg{
+  font-size: 1.5rem;
+  color: #ddc9c9;
+  font-weight: 400;
+}
+.bottom-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.show-count{
+  padding: 1rem;
+  background-color: #e9d8a6;
+  border: none;
+  text-align: center;
+  border-radius: 0.5rem;
+
+}
